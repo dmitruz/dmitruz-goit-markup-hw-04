@@ -162,7 +162,12 @@ text-decoration: none;
 .link-grey:hover {
    color: #2196F3;
    }
-
+.icon-item {
+   width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+}
 .contacts {
    display: flex;
    margin-left: auto;
@@ -223,7 +228,6 @@ text-decoration: none;
 
 .section-advantages {
    padding-top: 94px; 
-   padding-bottom: 94px;
 }
 
 .container {
@@ -414,8 +418,7 @@ text-decoration: none;
 .btn-list {
    display: flex;
     justify-content: center;
-    padding: 94px 0px;
-    padding-bottom: 34px;
+   margin-bottom: 50px;
 }
    
 .padding-item:not(:last-child) {
