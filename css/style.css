@@ -157,17 +157,28 @@ text-decoration: none;
    font-size: 14px;
    list-style: none;
    text-decoration: none;
+   padding-top: 32px;
+   padding-bottom: 32px;
    
 }
-.link-grey:hover {
-   color: #2196F3;
-   }
+.contacts .item-head + .item-head {
+   margin-left: 50px;  
+
+}
 .icon-item {
    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    fill: var(--primary-text-color);
+   height: 12px;
+   margin-right: 10px;
+   fill: #757575;
 }
+.link-item:hover {
+   fill:#2196f3;
+}
+
+.link-grey:hover {
+   color: #2196F3;
+ }
+
 .contacts {
    display: flex;
    margin-left: auto;
