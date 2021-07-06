@@ -556,7 +556,8 @@ text-decoration: none;
 
 .footer-icon-list:hover,
 .footer-icon-list:focus {
-   fill: var(--color-link-title);
+   
+   background: var(--color-link-title);
 }
 
 /*Portfolio styles*/
