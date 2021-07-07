@@ -103,10 +103,9 @@ font-size: 26px;
 letter-spacing: 0.03em;
 line-height: 1.2em;
 text-decoration: none;
+margin-right: 92px;
 }
-.logo-container {
-margin 0;
-}
+
 .logo-footer {
    margin-bottom: 20px;
    display: block;
@@ -142,10 +141,14 @@ text-decoration: none;
    font-weight: 500;
    font-size: 14px;
    list-style: none;
+   padding-left: 0;
 }
-.link:hover {
-   color: #2196F3;
+
+.link:hover,
+.link:focus {
+   color: #2196F3;  
 }
+
 .link-grey {
    font-family: Roboto;
    font-style: normal;
@@ -171,7 +174,8 @@ text-decoration: none;
    margin-right: 10px;
     fill: currentColor;
 }
-.link-grey:hover {
+.link-grey:hover,
+.link-grey:focus {
    fill: #2196f3;
 }
 .icon-item-tel {
@@ -181,7 +185,8 @@ text-decoration: none;
    fill: currentColor;
 
 }
-.link-item:hover {
+.link-item:hover,
+.link-item:focus {
    color:#2196f3;
 }
 
@@ -199,6 +204,7 @@ text-decoration: none;
 .header.item {
    margin-right:not(:last-child) 50px;
 }
+
 
 
 /*main section webstudio*/
@@ -360,8 +366,6 @@ text-decoration: none;
 .logo-set {
    display: flex;
     justify-content: space-between;
-    margin-top: 16px;
-    margin-bottom: 30px;
 }
 .logo-cards:not(:last-child) {
       margin-right: 10px;
@@ -386,7 +390,8 @@ text-decoration: none;
 
 }
 
-.link-logo-list:hover {
+.link-logo-list:hover,
+.link-logo-list:focus {
    fill: #fff;
     background: var(--color-link-title);
 }
@@ -429,7 +434,7 @@ text-decoration: none;
    letter-spacing: 0.03em;
    color: #757575;
    margin-top: 0;
-   margin-bottom: 10px;
+   margin-bottom: 16px;
    
 }
 
@@ -556,14 +561,31 @@ text-decoration: none;
 
 .footer-icon-list:hover,
 .footer-icon-list:focus {
-   
    background: var(--color-link-title);
 }
 
 /*Portfolio styles*/
 
 
-
+.link-active-port {
+   font-family: Roboto;
+   font-style: normal;
+   color: #2196F3;
+   letter-spacing: 0.02em;
+   font-weight: 500;
+   font-size: 14px;
+   list-style: none;  
+}
+.link-port {
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0,02em;
+   color: #212121;
+   text-decoration: none;
+}
 .main-section {
    padding-top: 94px;
    padding-bottom: 94px;
@@ -594,7 +616,8 @@ text-decoration: none;
    margin-right: 8px;
    color: var(--title-color);
 }
-.btn-port:hover {
+.btn-port:hover,
+.btn-port:focus {
    background: #2196F3;
    color:#fff;
    cursor: pointer;
