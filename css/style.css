@@ -120,7 +120,9 @@ text-decoration: none;
 .list {
    display: flex;
  }
-
+.list-row .header-item + .header-item {
+   margin-left: 50px;
+}
 
 .link {
    font-family: Roboto;
@@ -130,8 +132,9 @@ text-decoration: none;
    line-height: 16px;
    letter-spacing: 0,02em;
    color: #212121;
-   padding-left: 60px;
    text-decoration: none;
+   
+
 }
 .link-active {
    font-family: Roboto;
@@ -142,6 +145,7 @@ text-decoration: none;
    font-size: 14px;
    list-style: none;
    padding-left: 0;
+   
 }
 
 .link:hover,
@@ -162,6 +166,7 @@ text-decoration: none;
    text-decoration: none;
    padding-top: 32px;
    padding-bottom: 32px;
+   padding-left:0;
    
 }
 .contacts .item-head + .item-head {
